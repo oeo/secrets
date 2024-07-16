@@ -11,18 +11,18 @@ oh, it excludes readme.md too, so you have to run this.
 - creates a mapping file to track original and obfuscated filenames
 - encrypts the mapping file for security
 
-## usage: view readme
+### usage: view readme
 yarn readme
 
-## usage: encrypt all .md files
+### usage: encrypt all .md files
 yarn encrypt
 
-## usage: decrypt all gpg files
+### usage: decrypt all gpg files
 yarn decrypt
 
-## usage: generate a totp code
+### usage: generate a totp code
 yarn totp 'totpcodehere'
 
-## usage: run test suite
+### usage: run test suite
 yarn test
 "
