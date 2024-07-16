@@ -6,7 +6,8 @@
     "encrypt": "bash _encrypt_files.sh",
     "decrypt": "bash _decrypt_files.sh",
     "totp": "bash _generate_totp.sh",
-    "test": "bash _run_tests.sh"
+    "test": "bash _run_tests.sh",
+    "readme": "bash _readme.sh"
   },
   "author": "taky@taky.com",
   "license": "mit"
