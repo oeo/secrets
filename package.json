@@ -1,14 +1,16 @@
 {
-  "name": "secrets",
+  "name": "ward",
   "version": "1.0.0",
-  "description": "a set of tools for md file encryption, decryption, and totp generation",
+  "description": "a portable vault using bash and gpg",
   "scripts": {
-    "encrypt": "bash _encrypt_files.sh",
-    "decrypt": "bash _decrypt_files.sh",
-    "totp": "bash _generate_totp.sh",
-    "test": "bash _run_tests.sh",
-    "readme": "bash _readme.sh"
+    "encrypt": "bash bin/encrypt.sh",
+    "decrypt": "bash bin/decrypt.sh",
+    "totp": "bash bin/totp.sh",
+    "test": "bash bin/test.sh",
+    "readme": "bash _readme.sh",
+    "verify": "bash bin/verify_integrity.sh"
   },
   "author": "taky@taky.com",
-  "license": "mit"
+  "license": "MIT"
 }
+
